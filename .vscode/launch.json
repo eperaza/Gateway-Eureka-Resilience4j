@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch End1Application",
+            "request": "launch",
+            "mainClass": "com.example.end1.End1Application",
+            "projectName": "end1"
+        },
+        {
+            "type": "java",
+            "name": "Launch End2Application",
+            "request": "launch",
+            "mainClass": "com.example.end2.End2Application",
+            "projectName": "end2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EurekaApplication",
+            "request": "launch",
+            "mainClass": "com.example.eureka.EurekaApplication",
+            "projectName": "eureka"
+        },
+        {
+            "type": "java",
+            "name": "Launch Resilience4jApplication",
+            "request": "launch",
+            "mainClass": "com.example.resilience4j.Resilience4jApplication",
+            "projectName": "gateway-resilience4j"
+        }
+    ]
+}
