@@ -1,4 +1,3 @@
-
 global:
   scrape_interval:     15s # By default, scrape targets every 15 seconds.
 
@@ -19,7 +18,7 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090']
 
-  - job_name:       'gateway-resilience4j'
+  - job_name: 'gateway-resilience4j'
 
     # Override the global default and scrape targets from this job every 5 seconds.
     scrape_interval: 5s
@@ -28,3 +27,4 @@ scrape_configs:
 
     static_configs:
       - targets: ['localhost:8080']
+      
